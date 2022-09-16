@@ -83,8 +83,8 @@ const displayEntries = () => {
   var table = `<table border='1' width='100%'><tr>
       <th>Name</th>
       <th>Email</th>
-      <th>Dob</th>
       <th>Password</th>
+      <th>Dob</th>
       <th>Accepted terms?</th>
     </tr>${entries} </table>`;
   let details = document.getElementById("user-entries");
